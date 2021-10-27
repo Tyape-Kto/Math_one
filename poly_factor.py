@@ -1,3 +1,5 @@
+### this stupid script gives you all possible (factor and quotient's exponent) of any polynomial with any power.
+
 def factor_finder(poly):
   splitted = splitter(poly)
   p = num_giver(splitted[0])
