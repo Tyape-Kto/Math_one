@@ -1,5 +1,5 @@
 ### this stupid script gives you all possible (factor and quotient's exponent) of any polynomial with any power. yeah but it should not miss any exponent cause that one i didn't code. i have other works.
-
+### you can put 1 if there is no exponent and if there is missing x with any power in middle then add it with 0 exponent then it may work who knows
 def factor_finder(poly):
   splitted = splitter(poly)
   p = num_giver(splitted[0])
@@ -92,4 +92,5 @@ def e_factor(f:int, ex:list):
     return None
 
 poly = "6x**3+13x**2-19x-12"
+poly2 = "1x**4-5x**3-7x**2+29x+30" ### see how i have 1 before x**4 i could add it but yaa. fuck you, it's my code. i can remove this entire code too bitch.
 print(factor_finder(poly))
