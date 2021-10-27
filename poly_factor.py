@@ -1,4 +1,4 @@
-### this stupid script gives you all possible (factor and quotient's exponent) of any polynomial with any power.
+### this stupid script gives you all possible (factor and quotient's exponent) of any polynomial with any power. yeah but it should not miss any exponent cause that one i didn't code. i have other works.
 
 def factor_finder(poly):
   splitted = splitter(poly)
