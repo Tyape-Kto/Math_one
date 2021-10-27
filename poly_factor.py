@@ -1,5 +1,5 @@
-### this stupid script gives you all possible (factor and quotient's exponent) of any polynomial with any power. yeah but it should not miss any exponent cause that one i didn't code. i have other works.
-### you can put 1 if there is no exponent and if there is missing x with any power in middle then add it with 0 exponent then it may work who knows
+### this stupid script gives you all possible (factor and quotient's coeff) of any polynomial with any power. yeah but it should not miss any exponent or coeff cause that one i didn't code. i have other works.
+### you can put 1 if there is no coefficient and if there is missing x with any power in middle then add it with 0 exponent then it may work who knows
 def factor_finder(poly):
   splitted = splitter(poly)
   p = num_giver(splitted[0])
@@ -73,7 +73,7 @@ def p_roots(p,q):
 
 def e_factor(f:int, ex:list):
   """
-  this takes factor and exponent of try if it gives zero 
+  this takes factor and coeff of try if it gives zero 
     or not
   """
   result = 0
